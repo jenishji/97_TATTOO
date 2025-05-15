@@ -14,6 +14,9 @@ const Footer: React.FC<FooterProps> = ({ scrollToSection }) => {
   const handleNavClick = (section: string) => {
     if (section === 'about') {
       navigate('/about');
+    }
+    else if(section === 'products'){
+      navigate('/products');
     } else {
       navigate('/');
       // Add a small delay to ensure the navigation completes before scrolling

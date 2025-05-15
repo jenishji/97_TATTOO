@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
@@ -43,9 +42,9 @@ const Hero: React.FC<HeroProps> = ({ onBookingClick, heroImageUrl }) => {
             <Button 
               variant="outline" 
               onClick={() => {
-                const gallerySection = document.getElementById('gallery');
-                if (gallerySection) {
-                  gallerySection.scrollIntoView({ behavior: 'smooth' });
+                const offersSection = document.getElementById('offers');
+                if (offersSection) {
+                  offersSection.scrollIntoView({ behavior: 'smooth' });
                 }
               }}
               className={cn(
@@ -53,7 +52,7 @@ const Hero: React.FC<HeroProps> = ({ onBookingClick, heroImageUrl }) => {
                 "px-8 py-6 text-lg hover:bg-white/10 transition-all duration-300"
               )}
             >
-              View Gallery
+              View Offers
             </Button>
           </div>
         </div>

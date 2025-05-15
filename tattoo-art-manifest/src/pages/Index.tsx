@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom';
 import Navbar from '@/components/Navbar'; 
 import Hero from '@/components/Hero'; 
 import Gallery from '@/components/Gallery'; 
+import Offers from '@/components/Offers'; // Import the new Offers component
 import BookingForm from '@/components/BookingForm'; 
 import Footer from '@/components/Footer'; 
 import img1 from '../asset/img1.jpg'; 
@@ -56,6 +57,7 @@ const Index = () => {
       <main className="flex-grow">
         <Hero onBookingClick={handleOpenBooking} heroImageUrl={heroImageUrl} />
         <Gallery images={galleryImages} />
+        <Offers /> {/* Add the Offers component here */}
       </main>
       
       <Footer scrollToSection={scrollToSection} />
