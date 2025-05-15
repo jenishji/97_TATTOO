@@ -1,0 +1,36 @@
+# Ignore node_modules and dist folders globally
+/tattoo-art-manifest/node_modules
+/tattoo-art-manifest/dist
+/tattoo-art-manifest/dist-ssr
+
+/server/node_modules
+
+# Ignore env files
+/tattoo-art-manifest/.env
+/server/.env
+
+# Ignore log files
+/tattoo-art-manifest/*.log
+/tattoo-art-manifest/npm-debug.log*
+/tattoo-art-manifest/yarn-debug.log*
+/tattoo-art-manifest/yarn-error.log*
+/tattoo-art-manifest/pnpm-debug.log*
+/tattoo-art-manifest/lerna-debug.log*
+
+/server/*.log
+/server/npm-debug.log*
+/server/yarn-debug.log*
+/server/yarn-error.log*
+
+# Editor and system files
+/tattoo-art-manifest/.vscode/*
+!/tattoo-art-manifest/.vscode/extensions.json
+/tattoo-art-manifest/.idea
+/tattoo-art-manifest/.DS_Store
+
+/server/.vscode/*
+/server/.idea
+/server/.DS_Store
+
+# Global system files
+.DS_Store
