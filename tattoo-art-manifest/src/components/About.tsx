@@ -35,7 +35,7 @@ const About: React.FC = () => {
                 At Studio 97 Tattoo, we blend creativity with hygiene to craft tattoos that tell your story. Based in Jaipur with services across Mumbai and Ahmedabad, we offer both in-studio and doorstep tattooing experiences. Our mission is simple — to give you timeless, meaningful tattoos in a safe, relaxed environment.
               </p>
               <p className="text-gray-300">
-                Our team of skilled artists specializes in various tattooing styles, from intricate blackwork to vibrant realism. We pride ourselves on our attention to detail, hygiene standards, and the personal touch we bring to each design.
+                Our team of skilled artists specializes in various tattooing styles and design, from intricate blackwork to vibrant realism. We pride ourselves on our attention to detail, hygiene standards, and the personal touch we bring to each design.
               </p>
               <p className="text-gray-300">
                 Whether you're looking for your first tattoo or adding to your collection, our expert artists will guide you through the process, ensuring your vision comes to life with precision and passion.
