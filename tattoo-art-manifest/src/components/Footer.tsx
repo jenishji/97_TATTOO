@@ -39,7 +39,7 @@ const Footer: React.FC<FooterProps> = ({ scrollToSection }) => {
             </p>
             <div className="flex space-x-4">
               <a 
-                href="https://instagram.com/97tattoosjaipur" 
+                href="" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="hover:text-tattoo-gold text-gray-300 transition-colors"
@@ -47,7 +47,7 @@ const Footer: React.FC<FooterProps> = ({ scrollToSection }) => {
                 <Instagram />
               </a>
               <a 
-                href="https://facebook.com/studio97tattoo" 
+                href="" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="hover:text-tattoo-gold text-gray-300 transition-colors"

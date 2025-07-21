@@ -54,12 +54,12 @@ const ProductsPage = () => {
         </div>
 
         {/* Success Message Toast */}
-        {showSuccessMessage && (
+        {/* {showSuccessMessage && (
           <div className="fixed top-24 right-4 bg-green-500 text-white p-4 rounded-lg shadow-lg animate-fade-in z-50 flex items-center gap-2">
             <CheckCircle className="h-5 w-5" />
             <span>Added to cart successfully!</span>
           </div>
-        )}
+        )} */}
         
         {/* Main Product Section - 2 Column Grid */}
         <div className="container mx-auto px-4 md:px-6">
@@ -157,7 +157,7 @@ const ProductsPage = () => {
                         </div>
                         <div className="bg-tattoo-dark/50 p-4 rounded-lg">
                           <p className="text-tattoo-gold font-semibold mb-1">For inquiries:</p>
-                          <a href="tel:+919316025125" className="text-gray-300 hover:text-tattoo-gold text-lg">+91 9316025125</a>
+                          <a href="tel:+919316025125" className="text-gray-300 hover:text-tattoo-gold text-lg">+91 6782392346</a>
                         </div>
                       </div>
                     </div>
@@ -188,12 +188,12 @@ const ProductsPage = () => {
                     <p className="text-2xl font-semibold text-tattoo-gold">
                       ₹{selectedSize === 'small' ? '399' : '799'}.00
                     </p>
-                    <Button 
+                    {/* <Button 
                       onClick={handlePurchase}
                       className="bg-tattoo-gold hover:bg-amber-600 text-black font-semibold"
                     >
                       Add to Cart
-                    </Button>
+                    </Button> */}
                   </div>
                 </div>
               </div>
